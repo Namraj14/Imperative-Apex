@@ -1,7 +1,5 @@
 # Imperative-Apex (Manually write apex class)
 
-# README: Imperative Apex in LWC
-
 ## 🔥 What is Imperative Apex?
 
 **Imperative Apex** is when you manually call Apex methods from your Lightning Web Component (LWC) using JavaScript. Unlike the declarative `@wire` approach, imperative calls give you full control over when and how the server-side code executes.
