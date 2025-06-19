@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Accounts - Button Fetch" icon-name="standard:account">
+        <lightning-button 
+            label="Fetch Accounts" 
+            onclick={handleFetch} 
+            variant="brand">
+        </lightning-button>
+
+        <template if:true={accounts}>
+            <template for:each={accounts} for:item="acc">
+                <p key={acc.Id}>
+                    <b>{acc.Name}</b> — {acc.Industry} — {acc.Phone}
+                </p>
+            </template>
+        </template>
+
+        <template if:true={error}>
+            <p style="color:red;">{error}</p>
+        </template>
+    </lightning-card>
+</template>
