@@ -5,6 +5,8 @@
 **Imperative Apex** is when you manually call Apex methods from your Lightning Web Component (LWC) using JavaScript. Unlike the declarative `@wire` approach, imperative calls give you full control over when and how the server-side code executes. 
 An imperative Apex call is made when you decide in your JavaScript to call the Apex method — like when a user clicks a button, or a condition is met.
 
+🧠 Key idea:
+“JavaScript controls when the Apex method is called.”
 ---
 
 ## 💡 When to Use Imperative Apex
